@@ -7,6 +7,7 @@ required = [
     'demo/CARE_TEAM_ONE_PAGER.md',
     'demo/LESSON_RECEIPT.md',
     'demo/FORK_REPLICATION_CHECKLIST.md',
+    'demo/SOURCE_CORRECTION_EXAMPLE.md',
     'README.md',
 ]
 missing = [p for p in required if not (ROOT / p).exists()]
@@ -14,7 +15,7 @@ if missing:
     print('MISSING:', *missing, sep='\n- ')
     sys.exit(1)
 text = '\n'.join((ROOT / p).read_text(errors='replace') for p in required)
-for needle in ['fictional','closed until human approval','SAMHSA','Do not diagnose']:
+for needle in ['fictional','closed until human approval','SAMHSA','Do not diagnose','source-backed wording correction','closed_until_human_yes']:
     if needle.lower() not in text.lower():
         print('MISSING DEMO NEEDLE:', needle)
         sys.exit(1)
