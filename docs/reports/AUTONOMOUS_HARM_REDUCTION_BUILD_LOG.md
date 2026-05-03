@@ -3,6 +3,7 @@
 ## 2026-05-03T09:20Z — Demo fork replication checklist
 
 - Repo: `Sonic-Forage/rave-harm-reduction-demo-fork`
+- Commit: `eda21cfb7afc7a801011bdd7be98ed0fc2fbef08`
 - Canonical public repo: https://github.com/Sonic-Forage/rave-harm-reduction-demo-fork
 - Upstream kit: https://github.com/Sonic-Forage/rave-harm-reduction-community-kit
 - Finished branch proof: https://github.com/TheMindExpansionNetwork/rave-harm-reduction-community-kit/tree/demo/finished-harm-reduction-build
