@@ -1,5 +1,52 @@
 # Autonomous Harm-Reduction Build Log
 
+## 2026-05-03T10:44Z — Demo fork proof index
+
+- Repo: `Sonic-Forage/rave-harm-reduction-demo-fork`
+- Feature commit: `b20f81792c510c92f9494535920155fc229e9311`
+- Canonical public repo: https://github.com/Sonic-Forage/rave-harm-reduction-demo-fork
+- Upstream kit: https://github.com/Sonic-Forage/rave-harm-reduction-community-kit
+- Finished branch proof: https://github.com/TheMindExpansionNetwork/rave-harm-reduction-community-kit/tree/demo/finished-harm-reduction-build
+- Increment: added `demo/FORK_PROOF_INDEX.md`, a compact proof map that ties every finished fork artifact to repo-local evidence, source/citation discipline, human approval questions, and blocked-without-approval actions.
+- README update: surfaced the proof index in the finished demo output list.
+- Lesson receipt update: records the proof-index lane as part of the finished fork proof.
+- Verifier update: `scripts/verify_demo.py` now requires the proof index and checks for human-approval and blocked-action wording.
+
+### Checks run
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 python3 scripts/verify.py
+PYTHONDONTWRITEBYTECODE=1 python3 scripts/verify_demo.py
+python3 -m py_compile scripts/verify.py scripts/verify_demo.py
+git diff --check
+```
+
+Result before feature commit: passed.
+
+Cross-repo safety check also run in `Sonic-Forage/rave-harm-reduction-community-kit`:
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 python3 scripts/verify.py
+python3 -m py_compile scripts/verify.py
+git diff --check
+```
+
+Result: passed.
+
+### Closed gates
+
+No public posting, outreach, fundraising, payment links, field operations, training/certification claims, medical advice, legal advice, private event location publication, GPU/video jobs, private media upload, paid API use, spending, cron creation/removal/update, or scheduling was performed. All external actions remain `closed_until_human_yes`.
+
+### Secret scan status
+
+Changed-file secret scan included modified tracked files and the new untracked proof index before commit. No credential, private key, token prefix, auth material, private URL, payment material, or real event logistics were found. Verifier regex literals remain code patterns only and are not treated as secrets.
+
+### Next safe tasks
+
+1. Mirror the proof-index pattern into the upstream lesson docs after human review.
+2. Add a public-safe GitHub issue template for "proof index / finished fork evidence" in the upstream community kit.
+3. Add an optional JSON proof manifest in the demo fork if a later static site wants to render the same evidence map.
+
 ## 2026-05-03T10:05Z — City resource directory template for demo forks
 
 - Repo: `Sonic-Forage/rave-harm-reduction-demo-fork`
