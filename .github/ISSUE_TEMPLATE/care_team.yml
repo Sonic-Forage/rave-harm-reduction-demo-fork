@@ -1,0 +1,12 @@
+name: Care-team idea
+about: Improve the nonmedical care-team playbook.
+title: "Care team: "
+labels: [care-team, harm-reduction]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: Keep it educational and nonmedical unless citing qualified training.
+    validations:
+      required: true

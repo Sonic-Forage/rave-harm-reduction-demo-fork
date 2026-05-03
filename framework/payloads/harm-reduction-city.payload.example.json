@@ -1,0 +1,36 @@
+{
+  "schema": "sonic-forage.harm-reduction-city.v0.1",
+  "status": "example_only",
+  "city": "Example City",
+  "chapter": "Example City Safer Dancefloor Chapter",
+  "default_gates": "closed_until_human_yes",
+  "allowed_outputs": [
+    "source_backed_guide",
+    "checklist",
+    "issue_template",
+    "resource_placeholder_list"
+  ],
+  "blocked_without_human_approval": [
+    "public_posting",
+    "event_specific_outreach",
+    "medical_training_claims",
+    "fundraising",
+    "field_operations",
+    "private_location_publication"
+  ],
+  "required_sections": [
+    "disclaimer",
+    "emergency_resources",
+    "local_public_health_links",
+    "safe_dance_space_checklist",
+    "source_list"
+  ],
+  "sources": [
+    "https://harmreduction.org/about-us/principles-of-harm-reduction/",
+    "https://library.samhsa.gov/product/overdose-prevention-response-toolkit/pep23-03-00-001",
+    "https://www.samhsa.gov/find-help/helplines/national-helpline",
+    "https://dancesafe.org/fentanyl/",
+    "https://publichealth.jhu.edu/2022/what-is-harm-reduction"
+  ],
+  "demo_fork": true
+}

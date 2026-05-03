@@ -1,0 +1,19 @@
+name: Source-backed correction
+about: Fix harm-reduction wording, sources, or overclaims.
+title: "Correction: "
+labels: [harm-reduction, source-backed]
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should change?
+      description: Quote the current text and explain the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Add public URLs from qualified/public-health/community sources.
+    validations:
+      required: true

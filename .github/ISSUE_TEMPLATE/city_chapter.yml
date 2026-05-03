@@ -1,0 +1,18 @@
+name: City chapter / local guide idea
+about: Propose a local harm-reduction guide or chapter.
+title: "City chapter: "
+labels: [city-chapter, harm-reduction, closed-gate]
+body:
+  - type: input
+    id: city
+    attributes:
+      label: City / region
+    validations:
+      required: true
+  - type: textarea
+    id: public_resources
+    attributes:
+      label: Public resources only
+      description: Add official/public resource links. Do not include private events or sensitive locations.
+    validations:
+      required: true

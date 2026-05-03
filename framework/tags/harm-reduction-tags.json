@@ -1,0 +1,43 @@
+{
+  "schema": "sonic-forage.tags.harm-reduction.v0.1",
+  "github_labels": [
+    {
+      "name": "harm-reduction",
+      "color": "14B8A6",
+      "description": "Harm-reduction education and resources"
+    },
+    {
+      "name": "source-backed",
+      "color": "22C55E",
+      "description": "Needs or includes source citations"
+    },
+    {
+      "name": "care-team",
+      "color": "A855F7",
+      "description": "Care team / safer space operations"
+    },
+    {
+      "name": "closed-gate",
+      "color": "EF4444",
+      "description": "Requires human approval before external action"
+    },
+    {
+      "name": "city-chapter",
+      "color": "F59E0B",
+      "description": "Local/city chapter adaptation"
+    },
+    {
+      "name": "lesson-fork",
+      "color": "3B82F6",
+      "description": "Fork/demo lesson material"
+    }
+  ],
+  "content_tags": [
+    "nonjudgmental",
+    "public-health",
+    "nightlife",
+    "safer-dancefloor",
+    "overdose-education",
+    "local-resources"
+  ]
+}
