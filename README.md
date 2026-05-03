@@ -19,6 +19,7 @@ This shows what a community builder can do after forking:
 
 - `demo/EXAMPLE_CITY_CHAPTER.md` — sample chapter output
 - `demo/CARE_TEAM_ONE_PAGER.md` — printable-ish care-team summary
+- `demo/FORK_REPLICATION_CHECKLIST.md` — repeatable checklist for another public-safe fork lesson
 - `demo/LESSON_RECEIPT.md` — what changed from upstream
 - `framework/payloads/harm-reduction-city.payload.example.json` — filled with example placeholders
 

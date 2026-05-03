@@ -2,7 +2,13 @@
 from pathlib import Path
 import sys
 ROOT = Path(__file__).resolve().parents[1]
-required = ['demo/EXAMPLE_CITY_CHAPTER.md','demo/CARE_TEAM_ONE_PAGER.md','demo/LESSON_RECEIPT.md','README.md']
+required = [
+    'demo/EXAMPLE_CITY_CHAPTER.md',
+    'demo/CARE_TEAM_ONE_PAGER.md',
+    'demo/LESSON_RECEIPT.md',
+    'demo/FORK_REPLICATION_CHECKLIST.md',
+    'README.md',
+]
 missing = [p for p in required if not (ROOT / p).exists()]
 if missing:
     print('MISSING:', *missing, sep='\n- ')
