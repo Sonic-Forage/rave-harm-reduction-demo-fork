@@ -12,6 +12,7 @@
 - Added `demo/FORK_REPLICATION_CHECKLIST.md`
 - Added `demo/SOURCE_CORRECTION_EXAMPLE.md`
 - Added `demo/CITY_RESOURCE_DIRECTORY_TEMPLATE.md`
+- Added `demo/FORK_PROOF_INDEX.md`
 - Added `scripts/verify_demo.py`
 
 ## What this proves

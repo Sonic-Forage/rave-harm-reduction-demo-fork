@@ -22,6 +22,7 @@ This shows what a community builder can do after forking:
 - `demo/FORK_REPLICATION_CHECKLIST.md` — repeatable checklist for another public-safe fork lesson
 - `demo/SOURCE_CORRECTION_EXAMPLE.md` — model issue body for source-backed corrections without medical/legal claims or private logistics
 - `demo/CITY_RESOURCE_DIRECTORY_TEMPLATE.md` — source-backed public-resource directory template that forbids private event logistics and service promises
+- `demo/FORK_PROOF_INDEX.md` — proof map tying each finished fork artifact to sources, verifier commands, and closed gates
 - `demo/LESSON_RECEIPT.md` — what changed from upstream
 - `framework/payloads/harm-reduction-city.payload.example.json` — filled with example placeholders
 
